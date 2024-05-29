@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia API</title>
+</head>
+<body>
+    <h1>Wikipedia API</h1>
+    <form action="/suggest" method="post">
+        <label for="query">Suggest:</label>
+        <input type="text" id="query" name="query">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <form action="/page_id" method="post">
+        <label for="title">Get Page ID:</label>
+        <input type="text" id="title" name="title">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <form action="/geosearch" method="post">
+        <label for="lat">Latitude:</label>
+        <input type="text" id="lat" name="lat">
+        <label for="lon">Longitude:</label>
+        <input type="text" id="lon" name="lon">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <form action="/page_url" method="post">
+        <label for="pageid">Get Page URL:</label>
+        <input type="text" id="pageid" name="pageid">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
