@@ -1,6 +1,12 @@
+import selenium
+import time
+from selenium.webdriver import Edge
+from selenium.webdriver.edge.options import Options
 from selenium import webdriver
-from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.edge.service import Service
 
 # Set the path to the Microsoft Edge driver executable
 edge_driver_path = 'msedgedriver.exe'
